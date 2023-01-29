@@ -33,3 +33,7 @@ Animal: {}
 Names:""".format(
         animal.capitalize()
     )
+python -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+flask run
